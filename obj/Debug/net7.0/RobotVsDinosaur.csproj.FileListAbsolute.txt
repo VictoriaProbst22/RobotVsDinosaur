@@ -1,0 +1,15 @@
+C:\Users\victo\OneDrive\Desktop\RobotVsDinosaur\bin\Debug\net7.0\RobotVsDinosaur.exe
+C:\Users\victo\OneDrive\Desktop\RobotVsDinosaur\bin\Debug\net7.0\RobotVsDinosaur.deps.json
+C:\Users\victo\OneDrive\Desktop\RobotVsDinosaur\bin\Debug\net7.0\RobotVsDinosaur.runtimeconfig.json
+C:\Users\victo\OneDrive\Desktop\RobotVsDinosaur\bin\Debug\net7.0\RobotVsDinosaur.dll
+C:\Users\victo\OneDrive\Desktop\RobotVsDinosaur\bin\Debug\net7.0\RobotVsDinosaur.pdb
+C:\Users\victo\OneDrive\Desktop\RobotVsDinosaur\obj\Debug\net7.0\RobotVsDinosaur.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Desktop\RobotVsDinosaur\obj\Debug\net7.0\RobotVsDinosaur.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\OneDrive\Desktop\RobotVsDinosaur\obj\Debug\net7.0\RobotVsDinosaur.AssemblyInfoInputs.cache
+C:\Users\victo\OneDrive\Desktop\RobotVsDinosaur\obj\Debug\net7.0\RobotVsDinosaur.AssemblyInfo.cs
+C:\Users\victo\OneDrive\Desktop\RobotVsDinosaur\obj\Debug\net7.0\RobotVsDinosaur.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Desktop\RobotVsDinosaur\obj\Debug\net7.0\RobotVsDinosaur.dll
+C:\Users\victo\OneDrive\Desktop\RobotVsDinosaur\obj\Debug\net7.0\refint\RobotVsDinosaur.dll
+C:\Users\victo\OneDrive\Desktop\RobotVsDinosaur\obj\Debug\net7.0\RobotVsDinosaur.pdb
+C:\Users\victo\OneDrive\Desktop\RobotVsDinosaur\obj\Debug\net7.0\RobotVsDinosaur.genruntimeconfig.cache
+C:\Users\victo\OneDrive\Desktop\RobotVsDinosaur\obj\Debug\net7.0\ref\RobotVsDinosaur.dll
