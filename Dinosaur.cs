@@ -28,10 +28,12 @@ class Dinosaur
 
     //Methods - Has attack method
 
-    public virtual void Attack()
+    public virtual int Attack(Robot r)
     {
         Health -= 10;
-        
+        Console.WriteLine($"Hit!! {Name} has {Health} !");
+
+        return Health;
     }
 
 }

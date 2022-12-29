@@ -1,50 +1,53 @@
 //Has a name, Health, Active Weapon
 
+
+//properties
 class Robot
 {
 
-    //Feilds and Properties
-     public string WeaponName
-    { get; set; }
-    public string Name
-    { get; set; }
+    //Feilds
+    public string name;
+    public string weaponName;
+    public int health;
+    public int weapon;
 
-    public int Health
-    { get; set; } 
-    public int Weapon
-    { get; private set; }
+    
 
 
     //Constructors
-    public Robot(string name, int health, string weapon)
+    public Robot(string name, int weapon, string weaponName) 
     {
         this.Name = name;
-        this.Health = health;
+        this.Health = 100;
         this.Weapon = 25;
         this.WeaponName = "Chainsaw";
 
     }
 
-    
+    //Properties
 
-   
+    public string WeaponName
+    { get; set; }
+    public string Name
+    { get; set; }
 
-   
+    public int Health
+    { get; set; }
+
+    public int Weapon
+    { get; private set; }
 
     //Method - Has attack Method
 
-    public virtual void Attack()
+    public virtual int Attack(Dinosaur d)
     {
         Health -= 10;
-        Weapon =+ 5;
+        Weapon -= 5;
+
+        Console.WriteLine($"Hit!! {Name} has {Health} !");
+
+        return Health;
         
-        if(Health > 0)
-        {
-            Console.WriteLine("Dinosaur Won!");
-        } else
-        {
-            Console.WriteLine("Robot Won!");
-        }
         
 
     }
