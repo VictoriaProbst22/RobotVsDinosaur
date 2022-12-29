@@ -3,22 +3,7 @@
 class Dinosaur
 {
 
-    //Feilds
-
-    public string name;
-    public int attackPower;
-    public int health;
-
-    //Constructors
-    public Dinosaur(string name, int attackPower, int health)
-    {
-        this.Name = name;
-        this.AttackPower = attackPower;
-        this.Health = 100;
-
-    }
-
-    //Properties
+    //Feilds and Properties
 
     public string Name
     { get; set; }
@@ -29,13 +14,24 @@ class Dinosaur
     public int Health
     { get; private set; }
 
+    //Constructors
+    public Dinosaur(string name, int attackPower)
+    {
+        this.Name = name;
+        this.AttackPower = attackPower;
+        this.Health = 100;
+
+    }
+
+   
+
 
     //Methods - Has attack method
 
-    public int Attack()
+    public virtual void Attack()
     {
         Health -= 10;
-        return Health;
+        
     }
 
 }
