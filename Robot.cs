@@ -7,8 +7,11 @@ class Robot
 
     //Feilds
     public string name;
+    public string weaponName;
     public int health;
     public int weapon;
+
+    
 
 
     //Constructors
@@ -17,11 +20,14 @@ class Robot
         this.Name = name;
         this.Health = health;
         this.Weapon = 25;
+        this.WeaponName = weaponName;
 
     }
 
     //Properties
 
+    public string WeaponName
+    { get; set; }
     public string Name
     { get; set; }
 
